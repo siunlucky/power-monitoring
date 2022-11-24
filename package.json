@@ -16,8 +16,9 @@
     },
     "dependencies": {
         "alpinejs": "^3.10.5",
-        "boxicons": "^2.1.4",
         "chart.js": "^4.0.1",
-        "daisyui": "^2.41.0"
+        "chartjs-adapter-moment": "^1.0.1",
+        "daisyui": "^2.41.0",
+        "moment": "^2.29.4"
     }
 }

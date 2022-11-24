@@ -1,4 +1,4 @@
-<nav class="h-14 w-full flex px-5 bg-gray-100">
+<nav class="h-14 flex fixed w-5/6 z-10 px-5 bg-gray-100">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
 
         <i class="bx bx-menu bx-sm text-black"></i>

@@ -1,4 +1,4 @@
-<div class="flex flex-col w-64 bg-white overflow-hidden">
+<div class="flex flex-col fixed w-64 h-full bg-white">
     <div class="flex items-center justify-center h-14 shadow-md">
         <h1 class="text-3xl uppercase text-indigo-500">Logo</h1>
     </div>

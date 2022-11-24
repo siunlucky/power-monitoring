@@ -1,4 +1,5 @@
 import './bootstrap';
 import 'flowbite';
-import 'boxicons';
-import 'chart.js';
+import './charts/LineChart01';
+import './charts/LineChart02';
+import './charts/LineChart03';

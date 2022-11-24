@@ -8,19 +8,20 @@
     <title>Demo Power Monitoring</title>
     @vite('resources/css/app.css')
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- or -->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
+    <link rel="stylesheet" href="{{ asset('boxicons/css/boxicons.min.css') }}">
 
 </head>
 
 <body>
     <div class="min-h-screen flex flex-row bg-gray-200">
+
         @include('.components.sidebar')
-        <div class="w-full">
+        <div class="w-5/6 relative left-64">
             @include('.components.header')
-            @yield('content')
+            <div class="p-10 mt-10">
+                @yield('content')
+            </div>
+
         </div>
 
     </div>
